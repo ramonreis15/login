@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: url(login.png);
+        }
+        body {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            padding: 15px;
+            box-shadow: 0px 0px 5px 5px #a7f7f79a;
+            border-radius: 25px;
+            background: #0000009a;
+        }
+        input {
+            margin: 5px 0px;
+            height: 35px;
+            padding: 7px;
+            font-weight: bold;
+            background: #ffffffd8;
+            color: #000000;
+            font-weight: bold;
+        }
+        button {
+            height: 35px;
+            margin: 5px 0px;
+            background: #026873;
+            border: none;
+            border-radius: 5px;
+            color: #ffffff;
+            font-weight: bold;
+        }
+        button:hover {
+            background-color: #0e68749c;
+            color: #ffffff;
+        }
+        ::placeholder {
+            color: #000000;
+        }
+    </style>
+<body>
+    <div class="container">
+        <input type="email"
+        placeholder="email">
+        <input type="password"
+        placeholder="password">
+        <button>Login</button>
+    </div>
+</body>
+</html>
