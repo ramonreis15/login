@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: url(img/bg.png);
+            background-size: cover;
+        }
+        body {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            padding: 15px;
+            box-shadow: 0px 0px 5px 5px #000000ce;
+            border-radius: 25px;
+            background: #0000009a;
+        }
+        input {
+            margin: 5px 0px;
+            height: 35px;
+            padding: 7px;
+            font-weight: bold;
+            background: #000000;
+            color: #ffffff;
+        }
+        button {
+            height: 35px;
+            margin: 5px 0px;
+            background: #476269;
+            border: none;
+            border-radius: 5px;
+            color: #ffffff;
+            font-weight: bold;
+            font-family: Tahoma;
+        }
+        button:hover {
+            background-color: #476269b6;
+            color: #ffffff;
+        }
+        ::placeholder {
+            color: #ffffff;
+            font-weight: bold;
+            font-family: Tahoma;
+        }
+    </style>
+<body>
+    <div class="container">
+        <input type="email"
+        placeholder="Digite seu E-mail">
+        <input type="password"
+        placeholder="Digite sua Senha">
+        <button>Login</button>
+    </div>
+</body>
+</html>
